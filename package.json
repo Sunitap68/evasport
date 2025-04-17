@@ -1,0 +1,28 @@
+{
+  "name": "event-invite-editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.787.0",
+    "@aws-sdk/s3-request-presigner": "^3.787.0",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
+    "mongo": "^0.1.0",
+    "next": "15.3.0",
+    "react": "^19.0.0",
+    "react-cropper": "^2.3.3",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.34.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
