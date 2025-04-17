@@ -142,6 +142,7 @@ export default function Home() {
             value={name}
             onChange={handleNameChange}
             className={styles.nameInput}
+            maxLength={25}
             />
           <button 
             className={styles.btn}
