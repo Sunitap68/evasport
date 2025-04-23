@@ -8,7 +8,7 @@ export function middleware(request) {
     const encoded = authHeader.split(' ')[1];
     const [username, password] = atob(encoded).split(':');
 
-    if (username === 'apltournament' && password === 'weUcIpxwV$@*&') {
+    if (username === 'kathiriya' && password === 'weUcIpxwV$@*&') {
       return NextResponse.next();
     }
   }
